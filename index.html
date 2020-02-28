@@ -209,18 +209,15 @@ if (agent != null) {
   var url = GetRequest().code;
   var param = GetRequest().agent
   var href_1 = href + '?agent=' + param;
-<<<<<<< HEAD
   var href1 = 'http:'+url + href_1
-=======
   var href1 = url + href_1
->>>>>>> 72a338fcc748690a05564fc0e88dffe21a3e05ce
   href = href1.replace('https','http');
 }
 
 (function () {
     var btn = document.getElementById('btn');
     btn.style.display = 'block';
-    btn.href = '//' + href;
+    btn.href = 'http://' + href;
 })();
 		</script>
 </body>
