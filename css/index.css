@@ -1,0 +1,28 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+  
+  .main {
+    position: absolute;
+    top: 45%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .main > a {
+      width: 100%;
+  }
+  .main > a > img {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #btn {
+    display: none;
+  }
